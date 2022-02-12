@@ -48,12 +48,21 @@
       "test": "react-scripts test --env=jsdom",
       "eject": "react-scripts eject"
     
-    }
+    },
+
+    "Content-Type: application/json" {
+      "welcome_screen_greeting":"some_welcome_text",
+      "guest_chat_mode":"ENABLED",
+      "theme_color":"553399",
+      "alignment":"LEFT",
+      "entry_point_icon":"MESSENGER_ICON",
+      "entry_point_label":"Tanya"
+      "https://graph.facebook.com/v13.0/me/chat_plugin?access_token=c53c8cfcfff1b91f3d0d9bdc3557b747"
+     }
+   }
 
 
-
-
-  }
+  
 
 
 

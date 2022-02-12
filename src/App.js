@@ -18,14 +18,12 @@ function App() {
 
       <MessengerCustomerChat pageId="114516117825494" appId="481482256871485" />
 
-      <div className="fb_dialog_content">
-        <div className="fb_dialog_mobile">
+      
           <MessengerCustomerChat
             pageId="103549992260062"
             appId="481482256871485"
           />
-        </div>
-      </div>
+        
     </Router>
   );
 }
