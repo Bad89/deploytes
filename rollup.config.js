@@ -1,0 +1,12 @@
+
+
+
+
+export default {
+    entry: "./src/app.js",
+    output: {
+      file: "bundle.js",
+      format: "cjs",
+      sourceMap: true
+    }
+  };
