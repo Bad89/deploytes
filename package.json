@@ -19,11 +19,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-script build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "build": "GENERATE_SOURCEMAP=false react-script build",
     "extends": [
       "react-app",
       "react-app/jest"
@@ -36,6 +37,7 @@
       "not op_mini all"
     ],
     "development": [
+      
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
