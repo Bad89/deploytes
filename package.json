@@ -44,6 +44,4 @@
   "devDependencies": {
     "@sentry/webpack-plugin": "^1.18.5"
   }
-
-
 }
