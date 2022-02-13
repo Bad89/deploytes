@@ -48,7 +48,7 @@
   
     "compilerOptions": {
       "sourceMap": false,
-      "inlineSources": true,
+      "inlineSources": false,
       "sourceRoot": "/"
     }
   
