@@ -1,5 +1,5 @@
 export default {
-    entry: "./src/app.js",
+    entry: "./src/components/app.js",
     output: {
       file: "bundle.js",
       format: "cjs",
