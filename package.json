@@ -24,7 +24,6 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    
     "extends": [
       "react-app",
       "react-app/jest"
@@ -37,26 +36,19 @@
       "not op_mini all"
     ],
     "development": [
-      
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
   },
+  "devDependencies": {
+    "@sentry/webpack-plugin": "^1.18.5"
+  },
 
-  // "script":{
-  //   "start": "react-scripts start",
-  //    "build": "GENERATE_SOURCEMAP=false react-script build",
-  //     "test": "react-scripts test --env=jsdom",
-  //     "eject": "react-scripts eject"
-    
-  //   }
+  "compilerOptions": {
+    "sourceMap": true,
+    "inlineSources": true,
+    "sourceRoot": "/"
+  }
 
-    
-   }
-
-
-  
-
-
-
+}
