@@ -43,14 +43,14 @@
   },
   "devDependencies": {
     "@sentry/webpack-plugin": "^1.18.5"
-  }
+  },
 
-  {
+  
     "compilerOptions": {
       "sourceMap": false,
       "inlineSources": true,
       "sourceRoot": "/"
     }
-  }
+  
 
 }
